@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: #f1f2f3;
 }
 
 .fz-10 {
@@ -21,15 +22,14 @@ body {
 
 .header-nav{
     width: 100%;
-    height: 10px;
+    height: 40px;
+    background-color: #303336;
+    margin-bottom: 10px;
 }
 
 .header__right {
     height: 70px;
     margin-top: 11px;
-}
-
-.header__right-langs{
 }
 
 .header__right-user{
@@ -39,4 +39,46 @@ body {
 .image-auto {
     width: 100%;
     height: auto;
+}
+.header-nav__info{
+    margin: 0px 400px 0px 100px;
+}
+.header-nav__info__links {
+    color: var(--text-text-invert, #E4E5E7);
+    font-family: TacticSans-Reg;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 7px;
+}
+.header-nav__info__links-target{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    background-color: #fff;
+    height: 40px;
+}
+.news {
+    padding: 0;
+    border: 1px solid  #E4E5E7;
+    background-color: #FAFAFA;
+}
+.news_title{
+    font-family: Roboto;
+    height: 57px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.news_description{
+    margin-bottom: 15px;
+    height: 122px;
+    align-self: stretch;
+    font-size: 16px;
+    color: var(--text-text-secondary, #5F636A);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
