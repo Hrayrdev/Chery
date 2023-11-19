@@ -120,7 +120,7 @@ body {
     line-height: normal;
 }
 
-.more-detail{
+.more-detail-footer{
     width: 1000px;
     height: 200px;
 }
@@ -157,4 +157,12 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.news-date{
+    display: flex;
+    justify-content: space-between
+}
+.more-details{
+    margin-right: 5px;
+    color:#A4302D;
 }
