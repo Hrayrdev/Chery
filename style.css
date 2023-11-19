@@ -16,10 +16,13 @@ body {
 }
 
 .header {
+    max-width: 1240px;
+    margin: auto;
 }
 
 .my-container {
-    margin: 0 100px 0 100px;
+    max-width: 1240px;
+    margin: auto;
 }
 
 .header-nav{
@@ -33,11 +36,25 @@ body {
     height: 70px;
     margin-top: 11px;
 }
+.header__right-logos{
+    margin-top: 14px;
+}
+.header__right-logos-cont{
+    width: 100px;
+}
+.header__right-langs{
+
+}
 
 .header__right-user{
     display: flex;
 }
-
+.avatar{
+    margin-right: 15px;
+}
+.header__right-user-name{
+    margin-bottom: 0px;
+}
 .image-auto {
     width: 100%;
     height: auto;
@@ -49,10 +66,13 @@ body {
     /*margin: 0 100px 0 100px;*/
     /*margin: 0px 400px 0px 100px;*/
 }
+.header-nav__info-item-active-name{
+    padding: 10px  10px 0px 10px;
+}
 .header-nav__info-item-active{
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    justify-content:space-between ;
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
     height: 40px;
@@ -92,9 +112,48 @@ body {
     height: 122px;
     align-self: stretch;
     font-size: 16px;
-    color: var(--text-text-secondary, #5F636A);
+    color:  #5F636A;
     font-family: Roboto;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.more-detail{
+    width: 1000px;
+    height: 200px;
+}
+.fz-22 {
+    color:  #303336;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.graphic {
+    width: 1240px;
+    height: 324px;
+    border: 1px solid #93989F;
+    margin-bottom: 50px;
+}
+
+.additional-content{
+    background-color: #303336;
+    padding: 50px;
+}
+.contacts{
+    display: flex;
+}
+.data-about-us{
+    display: flex;
+    justify-content: space-between;
+    height: 200px
+}
+.fz-12{
+    color:  #93989F;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
