@@ -153,6 +153,11 @@ body {
     justify-content: space-between;
     height: 200px
 }
+.data-about-us{
+    display: flex;
+    justify-content: space-between;
+    height: 200px
+}
 .fz-12{
     color:  #93989F;
     font-size: 12px;
