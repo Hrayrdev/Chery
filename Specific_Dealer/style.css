@@ -1,0 +1,165 @@
+.header {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.my-container {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.header-nav {
+    width: 100%;
+    height: 40px;
+    background-color: #303336;
+    margin-bottom: 10px;
+}
+
+.header-nav__info-item-active-name {
+    border-bottom: 10px solid;
+}
+
+.header__right {
+    height: 70px;
+    margin-top: 11px;
+}
+
+.header__right-logos {
+    margin-top: 14px;
+}
+
+.header__right-logos-cont {
+    width: 100px;
+}
+
+.header__right-langs {
+
+}
+
+.fz-10 {
+    font-size: 10px;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+
+.header__right-user {
+    display: flex;
+}
+
+.avatar {
+    margin-right: 15px;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-select {
+    width: 120px;
+}
+
+.image-auto {
+    width: 100%;
+    height: auto;
+}
+
+.header-nav__info {
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+    max-width: 1240px;
+    margin: auto;
+    /*margin: 0 100px 0 100px;*/
+    /*margin: 0px 400px 0px 100px;*/
+}
+
+.header-nav__info-item-active-name {
+    padding: 10px 10px 0px 10px;
+}
+
+.header-nav__info-item-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    height: 40px;
+    padding: 0 !important;
+    color: #000 !important;
+
+}
+
+.header-nav__info-item {
+    padding-top: 10px;
+    color: #E4E5E7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-nav__info__links-target {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    background-color: #fff;
+    height: 40px;
+}
+
+.color-grey-2 {
+    color: #93989F;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.fz-22 {
+    font-size: 22px;
+}
+
+.bts-info {
+    background-color: #FAFAFA;
+    margin-right: 10px;
+    padding: 3px 10px 3px 10px;
+    border: 1px solid #E4E5E7;
+    border-radius: 3px;
+}
+
+.bts-info-active {
+    background-color: #45494E;
+    color: #E4E5E7;
+}
+
+.table {
+    padding: 0;
+}
+
+.table-header {
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #92BCE3;
+}
+
+.table-description {
+    height: 100%;
+    border: 1px solid #5F636A;
+}
+.table-component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table-description-string{
+    width: 220px;
+    color: #5F636A;
+}
+.input-group{
+    max-width: 210px;
+}
