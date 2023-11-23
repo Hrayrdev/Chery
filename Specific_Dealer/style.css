@@ -1,3 +1,12 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f2f3;
+}
 .header {
     max-width: 1240px;
     margin: auto;
@@ -43,7 +52,6 @@
 .fz-14 {
     font-size: 14px;
 }
-
 
 .header__right-user {
     display: flex;
@@ -140,26 +148,62 @@
 .table {
     padding: 0;
 }
-
+.tables{
+    gap: 20px;
+}
 .table-header {
     border-radius: 2px;
     padding: 5px;
     background-color: #92BCE3;
 }
+.building-photo-comm{
+    padding: 20px;
+    background-color: #FAFAFA;
+    border: 1px solid #E4E5E7;
+}
 
 .table-description {
-    height: 100%;
+    padding: 20px;
     border: 1px solid #5F636A;
 }
-.table-component{
+.table-description-component{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
-.table-description-string{
+.table-description-component-string{
     width: 220px;
     color: #5F636A;
 }
 .input-group{
     max-width: 210px;
+}
+
+.additional-content{
+    background-color: #303336;
+    padding: 50px;
+}
+.data-about-us{
+    display: flex;
+    justify-content: space-between;
+    height: 200px
+}
+.contacts{
+    display: flex;
+}
+.color-white-2{
+    color:#E4E5E7;
+}
+.fz-15{
+    font-size: 15px;
+    color:#E4E5E7;
+
+}
+.fz-12{
+    color:  #93989F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
