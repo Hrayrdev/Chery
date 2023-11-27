@@ -59,6 +59,11 @@ body {
     width: 100%;
     height: auto;
 }
+
+.main{
+    margin-bottom: 100px;
+}
+
 .header-nav__info{
     display: flex;
     gap: 20px;
@@ -68,8 +73,11 @@ body {
     /*margin: 0 100px 0 100px;*/
     /*margin: 0px 400px 0px 100px;*/
 }
-.header-nav__info-item-active-name{
-    padding: 10px  10px 0px 10px;
+.header-nav__info-item-active-name {
+    border-bottom: 5px solid #A4302D;
+    padding: 10px 10px 8px 10px;
+    background-color: #f1f2f3;
+    color: #000!important;
 }
 .header-nav__info-item-active{
     display: flex;

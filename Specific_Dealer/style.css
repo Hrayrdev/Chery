@@ -24,9 +24,7 @@ body{
     margin-bottom: 10px;
 }
 
-.header-nav__info-item-active-name {
-    border-bottom: 10px solid;
-}
+
 
 .header__right {
     height: 70px;
@@ -87,7 +85,10 @@ body{
 }
 
 .header-nav__info-item-active-name {
-    padding: 10px 10px 0px 10px;
+    border-bottom: 5px solid #A4302D;
+    padding: 10px 10px 6px 10px;
+    background-color: #f1f2f3;
+    color: #000!important;
 }
 
 .header-nav__info-item-active {
