@@ -1,0 +1,80 @@
+<div class="main">
+
+    <table class="table my-container table-border">
+        <thead class="table-line">
+        <tr>
+            <th class="col-1">
+                <div class="col-name">
+                    <div class="table-col color-grey-3 df jcsb ">
+                        <div class="mr-10">Актуальный</div>
+                        <div><img class="image-auto" src="./image/main/arrow-bottom.svg" alt=""></div>
+                    </div>
+                </div>
+
+            </th>
+            <th class="col-5">
+                <div class="table-col color-grey-3 col-name df jcsb  ">
+                    <div class="mr-10">Название</div>
+                    <div><img class="image-auto" src="./image/main/arrow-bottom.svg" alt=""></div>
+                </div>
+            </th>
+            <th class="col-2">
+                <div class="table-col color-grey-3 col-name df  ">
+                    <div>Дата</div>
+                </div>
+            </th>
+            <th class="col">
+                <div class="table-col color-grey-3 col-name df   jcsb">
+                    <div class="mr-10">Действия</div>
+                    <div><img class="image-auto" src="./image/main/arrow-bottom.svg" alt=""></div>
+                </div>
+            </th>
+        </tr>
+
+        </thead>
+        <tbody>
+        <tr class="bc-grey1">
+            <td>1653</td>
+            <td>26.10.2023</td>
+        </tr>
+        </tbody>
+
+    </table>
+
+
+</div>
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+
+
+
+
+
+.table {
+    margin-bottom: 70px;
+
+    border-left: 1px solid #E4E5E7;
+    border-right: 1px solid #E4E5E7;
+    border-bottom: 3px solid #E4E5E7;    /*border: 3px solid #E4E5E7;*/
+}
+
+
+.col-name {
+    display: flex;
+    align-items: center;
+    height: 65px;
+
+}
+.table-line {
+    border-bottom: 2px solid #f1f2f3;
+    background-color:   #FAFAFA;
+}
+.bc-grey1{
+    background-color: #F1F2F3;
+}
+
+.bc-grey2 {
+    background-color: #FAFAFA;
+}
