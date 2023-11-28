@@ -124,25 +124,30 @@ body {
 .bts-update{
     border: none;
     display: flex;
-    width: 267px;
+    width: 350px;
     height: 44px;
     padding: 10px;
     justify-content: center;
     align-items: center;
     border-radius: 2px;
     background:  #45494E;
-    margin-right: 150px;
     margin-bottom: 20px
 }
 .bts-reset{
-
+    background-color: #FAFAFA;
     border: none;
     display: flex;
-    margin-right: 297px;
-
-    padding: 6px 10px;
+    color: #A4302D;
+    padding-right: 200px;
     align-items: center;
+
 }
+.bts{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 .main{
     padding: 50px;
     background-color: #FAFAFA;
@@ -167,10 +172,11 @@ body {
     color:#fff;
 }
 .table-line{
-    border-bottom: 2px solid  #f1f2f3;
+    border-bottom: 2px solid  red;
 }
 .color-red{
     color: #A4302D;
+    text-decoration: underline;
 }
 .color-grey-3{
     color: #303336
