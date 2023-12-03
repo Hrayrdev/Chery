@@ -58,7 +58,16 @@ body {
 .header {
     height: 70px;
 }
+.table {
+    margin-bottom: 20px;
 
+    border-left: 1px solid #E4E5E7;
+    border-right: 1px solid #E4E5E7;
+    border-bottom: 3px solid #E4E5E7;    /*border: 3px solid #E4E5E7;*/
+}
+.w20{
+    width: 20px;
+}
 .header-nav {
     background-color: #303336;
     margin-bottom: 10px;
@@ -104,6 +113,7 @@ body {
 
 .news-list {
     margin-bottom: 70px;
+    gap: 10px;
 }
 
 .news-list-item {
@@ -460,7 +470,7 @@ body {
 }
 
 .header__right-langs {
-
+    margin-top: 14px;
 }
 
 .fz-10 {

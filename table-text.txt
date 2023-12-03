@@ -49,7 +49,17 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 
+.table-line {
+    border-bottom: 2px solid #f1f2f3;
+    background-color:   #FAFAFA;
+}
 
+.w-20{
+    width: 20px;
+}
+.bc-grey2 {
+    background-color: #FAFAFA;
+}
 
 
 .table {
